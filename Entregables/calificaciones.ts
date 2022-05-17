@@ -18,8 +18,10 @@ while (nAlumno !== " ") {
   ) {
     notaFinal = Number(nPractica * 0.1 + nProblema * 0.5 + nTeorica * 0.4);
     console.log("Alumno: " + nAlumno, "su nota final: " + notaFinal);
+    break;
   } else {
     console.log("erro!! (verificar notas)");
+    break;
   }
 }
 
