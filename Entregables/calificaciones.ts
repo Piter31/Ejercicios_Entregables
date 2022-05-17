@@ -9,18 +9,19 @@ while (nAlumno !== " ") {
   let nTeorica: number = Number(prompt("Ingresar nota de Teorica "));
 
   if (
-    nPractica >= 0 &&
+    nPractica > 0 &&
     nPractica <= 10 &&
-    nProblema >= 0 &&
+    nProblema > 0 &&
     nProblema <= 10 &&
-    nTeorica >= 0 &&
+    nTeorica > 0 &&
     nTeorica <= 10
   ) {
+    //muestra el resultado final
     notaFinal = Number(nPractica * 0.1 + nProblema * 0.5 + nTeorica * 0.4);
     console.log("Alumno: " + nAlumno, "su nota final: " + notaFinal);
     break;
   } else {
-    console.log("erro!! (verificar notas)");
+    console.log("erro!! (Revisar notas)");
     break;
   }
 }
