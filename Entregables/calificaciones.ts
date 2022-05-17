@@ -21,7 +21,7 @@ while (nAlumno !== " ") {
     console.log("Alumno: " + nAlumno, "su nota final: " + notaFinal);
     break;
   } else {
-    console.log("erro!! (Revisar notas)");
+    console.log("error!! (Revisar notas)");
     break;
   }
 }
