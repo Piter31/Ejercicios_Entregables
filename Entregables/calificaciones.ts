@@ -1,17 +1,13 @@
 
-
-let nombreAlumno: string;
-let nPractica, nProblema, nTeoria: number;
-
-nombreAlumno = string(pompt("Ingresar Nombre del Alumno: "));
-console.log("Nombre del Alumno: ", nombreAlumno);
+let nAlumno: string(prompt ("Ingresar Nombre del Alumno: "));
+let notaFinal: number;
 
 
-if (nPractica >= 0 && nPractica <= 10) {
+while (nAlumno </>= " ") {
+  let nPractica: number = Number(prompt("Ingresar nota de Practica: "));
+  let nProblema: number = Number(prompt("Ingresar nota de Problema: "));
+  let nTeorica: number = Number(prompt("Ingresar nota de Teorica: "));
 }
+  if (nPractica >= 0 && nPractica <= 10) {
+  }
 
-if (nProblema >= 0 && nProblema <= 10) {
-}
-
-if (nTeoria >= 0 && nTeoria <= 10) {
-}
