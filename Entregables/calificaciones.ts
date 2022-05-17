@@ -20,3 +20,5 @@ while (nAlumno !== " ") {
     console.log("erro!! (verificar notas)");
   }
 }
+
+//NOTA: cada ves que guardo, el mismo CodeSandbox me lo desidenta.
