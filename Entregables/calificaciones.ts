@@ -1,3 +1,5 @@
+//este algoritmo calcula las calificaciones de un grupo de alumnos (ingresando los datos por teclado).
+
 let nAlumno: string = String(prompt("Ingresar Nombre del Alumno"));
 let notaFinal: number;
 
