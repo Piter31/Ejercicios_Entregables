@@ -3,7 +3,7 @@
 let nAlumno: string = String(prompt("Ingresar Nombre del Alumno"));
 let notaFinal: number;
 
-while (nAlumno !== " ") {
+while (nAlumno !== "") {
   let nPractica: number = Number(prompt("Ingresar nota de Practica "));
   let nProblema: number = Number(prompt("Ingresar nota de Problema "));
   let nTeorica: number = Number(prompt("Ingresar nota de Teorica "));
@@ -24,6 +24,7 @@ while (nAlumno !== " ") {
     console.log("error!! (Revisar notas)");
     break;
   }
+  let nAlumno: string = String(prompt("Ingresar Nombre del Alumno"));
 }
 
 //NOTA: cada ves que guardo, el mismo CodeSandbox me lo desidenta.
