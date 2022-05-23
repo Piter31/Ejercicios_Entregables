@@ -2,9 +2,11 @@
 let grupo1Arreglo: number[] = new Array(6);
 let grupo2Arreglo: number[] = new Array(6);
 
+let num1: number;
+let num2: number;
+let sumaArreglos: number;
 let indice: number;
 //primer grupo de numeros...
-let num1: number;
 for (indice = 0; indice < 6; ) {
 	num1 = Number(
 		prompt("Ingresar numeros para el grupo 1, posicion: " + indice)
@@ -15,7 +17,6 @@ for (indice = 0; indice < 6; ) {
 }
 
 // segundo grupo de numero...
-let num2: number;
 for (indice = 0; indice < 6; ) {
 	num2 = Number(
 		prompt("Ingresar numeros para el grupo 2, posicion: " + indice)
@@ -25,3 +26,8 @@ for (indice = 0; indice < 6; ) {
 	indice++;
 }
 //suma de los dos arreglos (Grupo 1 + Grupo 2)
+for (indice = 0; indice < 6; ) {
+	sumaArreglos = grupo1Arreglo[indice] + grupo2Arreglo[indice];
+	console.log("Suma de la posicion: ", indice, "igual a: " + sumaArreglos);
+	indice++;
+}
