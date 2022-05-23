@@ -10,6 +10,8 @@ function esMultiplo(dividendo: number, divisor: number) {
 	let resto: number;
 
 	console.log(dividendo % divisor === 0);
+
+	//NOTA: muestra los numeros en su orden ingresado, aunque en el enunciado no los pida
 	resto = dividendo % divisor;
 	if (resto === 0) {
 		console.log("El numero: " + dividendo, "es multiplo de: " + divisor);
