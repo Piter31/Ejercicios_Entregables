@@ -6,6 +6,7 @@ let num1: number;
 let num2: number;
 let sumaArreglos: number;
 let indice: number;
+
 //primer grupo de numeros...
 for (indice = 0; indice < 6; ) {
 	num1 = Number(
