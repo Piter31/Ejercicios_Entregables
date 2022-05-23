@@ -6,17 +6,15 @@
 let numero1: number = Number(prompt("Ingrese un Numero entero:"));
 let numero2: number = Number(prompt("Ingresar un segundo Numero entero:"));
 
-function esMultiplo(numero1: number, numero2: number) {
+function esMultiplo(dividendo: number, divisor: number) {
 	let resto: number;
-	let dividendo: number;
-	let divisor: number;
 
-	console.log((resto = dividendo % divisor));
-	//	if (numero1 % numero2 === 0)
-	if (resto) {
-		console.log("El numero: " + numero1, "es multiplo de: " + numero2);
-		//	} else {
-		console.log("El numero: " + numero1, "NO es multiplo de: " + numero2);
+	console.log(dividendo % divisor === 0);
+	resto = dividendo % divisor;
+	if (resto === 0) {
+		console.log("El numero: " + dividendo, "es multiplo de: " + divisor);
+	} else {
+		console.log("El numero: " + dividendo, "NO es multiplo de: " + divisor);
 	}
 }
 
