@@ -1,5 +1,4 @@
 //suma dos arreglos
-
 let grupo1Arreglo: number[] = new Array(6);
 let grupo2Arreglo: number[] = new Array(6);
 
@@ -18,8 +17,11 @@ for (indice = 0; indice < 6; ) {
 // segundo grupo de numero...
 let num2: number;
 for (indice = 0; indice < 6; ) {
-	num2 = Number(prompt("Ingresar numeros para el grupo , posicion: " + indice));
+	num2 = Number(
+		prompt("Ingresar numeros para el grupo 2, posicion: " + indice)
+	);
 	grupo2Arreglo[indice] = num2;
 	console.log("Posicion grupo 2: ", indice, "Numero: " + num2);
 	indice++;
 }
+//suma de los dos arreglos (Grupo 1 + Grupo 2)
