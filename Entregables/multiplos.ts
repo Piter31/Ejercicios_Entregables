@@ -21,3 +21,4 @@ function esMultiplo(dividendo: number, divisor: number) {
 }
 
 esMultiplo(numero1, numero2);
+//esta muy bien tu solucion!
