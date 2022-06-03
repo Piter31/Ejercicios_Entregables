@@ -4,16 +4,26 @@
 //personas mayores o igual a 21 años.
 //cuantas personas en total.
 
-let persona: string;
-let edad: number;
-
+let totalDePersonas: number[] = new Array(10);
+//let edad: number;
+let indice: number;
+let mayoresDeEdad: number = 0;
+let menoresDeEdad: number = 0;
 //
-persona = String(prompt("Ingresar nombre de la persona "));
-edad = Number(prompt("Ingresar edad de la persona "));
-if (edad > 21) {
-  console.log("Nombre de la Persona: " + persona, "edad: " + edad);
+function edad(tope: number) {
+  return Math.floor(Math.random() * tope);
 }
 
-//function Azar(tope: number) {
-//  return Math.floor(Math.random() * tope);
-//}
+for (indice = 0; indice < 10; indice++) {
+  totalDePersonas[indice] = edad(40);
+  if (totalDePersonas[indice] > 21) {
+    console.log("Persona MAYOR: " + totalDePersonas[indice]);
+    mayoresDeEdad++;
+  } else {
+    console.log("menor de edad: " + totalDePersonas[indice]);
+    menoresDeEdad++;
+  }
+}
+console.log("Cantidad de personas mayores a 21 años:" + mayoresDeEdad);
+console.log("Cantidad de personas MENOR a 21 años:" + menoresDeEdad);
+//function Azar(tope: number) {return Math.floor(Math.random() * tope)}
