@@ -1,4 +1,4 @@
-// EJEMPLO: let arregloClientes : number[] = new Array(30);
+// EJEMPLO: let arregloPersonas : number[] = new Array(270);
 
 //cantida de personas menores de 21 años.
 //personas mayores o igual a 21 años.
@@ -15,7 +15,7 @@ function edad(tope: number) {
 }
 
 for (indice = 0; indice < 10; indice++) {
-  totalDePersonas[indice] = edad(40);
+  totalDePersonas[indice] = edad(tope);
   if (totalDePersonas[indice] > 21) {
     console.log("Persona MAYOR: " + totalDePersonas[indice]);
     mayoresDeEdad++;

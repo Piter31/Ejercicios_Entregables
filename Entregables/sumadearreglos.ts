@@ -5,7 +5,7 @@ let grupo2Arreglo: number[] = new Array(6);
 let num1: number;
 let num2: number;
 let sumaArreglos: number;
-let indice: number;
+//let indice: number;
 
 //primer grupo de numeros...
 for (indice = 0; indice < 6; indice++) {
